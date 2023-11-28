@@ -40,7 +40,3 @@ spec:
           env:
             - name: SPRING_APPLICATION_NAME
               value: "config-service"
-            - name: SPRING_CONFIG_IMPORT
-              value: "kubernetes:"
-            - name: SPRING_CLOUD_BOOTSTRAP_ENABLED
-              value: "true"
