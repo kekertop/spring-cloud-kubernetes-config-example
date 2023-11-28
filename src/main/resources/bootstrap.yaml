@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    kubernetes:
+      config:
+        namespace: default
+        name: config-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 8080
